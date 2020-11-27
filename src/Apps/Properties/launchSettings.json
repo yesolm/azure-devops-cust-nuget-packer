@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Yesolm.DevOps": {
+      "commandName": "Project",
+      "commandLineArgs": "-s \"D:\\Development\\Backend\\Vero.Libs\" -b  \"D:\\DevOpsWorkspace\\BuiildArtifacts\\Build\" -n \"D:\\DevOpsWorkspace\\PublishFolder\\NugetPackages\""
+    }
+  }
+}
