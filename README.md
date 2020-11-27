@@ -52,7 +52,7 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'azdevopscustnuget.exe -b $(Build.ArtifactStagingDirectory) -s  $(Build.SourcesDirectory) -n $(Build.ArtifactStagingDirectory)/Nupkg'
+    script: 'azdevopscustnuget.exe -b $(Build.ArtifactStagingDirectory) -s  $(Build.SourcesDirectory) -n 
+    $(Build.ArtifactStagingDirectory)/Nupkg'
     workingDirectory: '$(System.ArtifactsDirectory)'
 ```
-afs
